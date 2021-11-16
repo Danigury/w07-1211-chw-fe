@@ -3,11 +3,7 @@ const UserCard = ({ user }) => {
     <li className="col-md-4">
       <div className="card profile">
         <div className="card-img-block">
-          <img
-            className="card-img-top"
-            src={user.image}
-            alt={`Picture of ${user.image}`}
-          />
+          <img className="card-img-top" src={user.image} />
         </div>
         <div className="card-body pt-0">
           <h3 className="card_info_user_title">{user.username}</h3>
